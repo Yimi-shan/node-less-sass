@@ -16,6 +16,8 @@ sublime 使用scss → → →
 
 新建gulpfile.js(与www同一路径下)
 
+---------------------------------------------------------
+
 var gulp = require('gulp');//加载gulp工具
 
 var less = require('gulp-less');//加载LESS插件
@@ -69,6 +71,7 @@ gulp.task('watch', function () {
 
 gulp.task('default', ['connect', 'watch']);
 
+---------------------------------------------------------
 
 -------配置环境------
 
@@ -76,11 +79,15 @@ node_path
 
 C:\Users\a\AppData\Roaming\npm\node_modules
 
+---------------------------------------------------------
+
 --------cmd------
 
 cd C:\Users\a\Desktop\gulp-less（地址）
 
 gulp
+
+---------------------------------------------------------
 
 ---------访问----
 
