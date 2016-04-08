@@ -11,11 +11,17 @@ cnpm install gulp-connect -g
 sublime 使用less → → →
 
 新建一个文件夹为www，把网页等内容放进这里
+
 新建gulpfile.js(与www同一路径下)
 
+
+
 var gulp = require('gulp');//加载gulp工具
+
 var less = require('gulp-less');//加载LESS插件
+
 var sass = require('gulp-sass');//加载LESS插件
+
 var connect = require('gulp-connect');//启动一个服务器
 
 //使用connect启动一个www服务器
@@ -65,19 +71,30 @@ gulp.task('default', ['connect', 'watch']);
 
 
 -------配置环境------
+
 node_path
+
 C:\Users\a\AppData\Roaming\npm\node_modules
 
 --------cmd------
+
 cd C:\Users\a\Desktop\gulp-less（地址）
+
 gulp
+
+
+
+
 
 ---------访问----
 pc端 
+
 localhost:9999
+
 IP:9999
+
 移动端
+
 IP:9999
 
 
----------------------------------------------------------
