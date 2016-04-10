@@ -1,6 +1,6 @@
 安装less  → → →
 
-cnpm install glup -g
+cnpm install gulp -g
 
 cnpm install gulp-less -g
 
