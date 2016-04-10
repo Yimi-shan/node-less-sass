@@ -1,6 +1,6 @@
 安装sass  → → →
 
-cnpm install glup -g (如果已经安装则不用)
+cnpm install gulp -g (如果已经安装则不用)
 
 cnpm install gulp-connect -g (如果已经安装则不用)
 
